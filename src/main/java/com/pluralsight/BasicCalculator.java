@@ -45,20 +45,20 @@ public class BasicCalculator {
         }
         /*
         if (Objects.equals(letterOption, "A")) {
-            double calcAddition = firstNumber + secondNumber;
-            System.out.println(firstNumber + " + " + secondNumber + " = " + calcAddition);
+            double calcSum = firstNumber + secondNumber;
+            System.out.println(firstNumber + " + " + secondNumber + " = " + calcSum);
         }
         else if (Objects.equals(letterOption, "S")) {
             double calcDifference = firstNumber - secondNumber;
             System.out.println(firstNumber + " - " + secondNumber + " = " + calcDifference);
         }
         else if (Objects.equals(letterOption, "M")) {
-            double calcMultiply = firstNumber * secondNumber;
-            System.out.println(firstNumber + " * " + secondNumber + " = " + calcMultiply);
+            double calcProduct = firstNumber * secondNumber;
+            System.out.println(firstNumber + " * " + secondNumber + " = " + calcProduct);
         }
         else if (Objects.equals(letterOption, "D")) {
-            double calcDivide = firstNumber / secondNumber;
-            System.out.println(firstNumber + " / " + secondNumber + " = " + calcDivide);
+            double calcQuotient = firstNumber / secondNumber;
+            System.out.println(firstNumber + " / " + secondNumber + " = " + calcQuotient);
         }
         */
     }
