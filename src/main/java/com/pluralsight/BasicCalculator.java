@@ -25,9 +25,25 @@ public class BasicCalculator {
         System.out.println("Please select an option: ");
         myScanner.nextLine();
 
-        //Made functioning calculator with if statements and objects
-
+        //Made functioning calculator with if statements with .equals
         String letterOption = myScanner.nextLine();
+        if (letterOption.equals("A")) {
+            double sumAddition = firstNumber + secondNumber;
+            System.out.println(firstNumber + " + " + secondNumber + " = " + sumAddition);
+        }
+        else if (letterOption.equals("S")) {
+            double sumSubtraction = firstNumber - secondNumber;
+            System.out.println(firstNumber + " - " + secondNumber + " = " + sumSubtraction);
+        }
+        else if (letterOption.equals("M")) {
+            double sumProduct = firstNumber * secondNumber;
+            System.out.println(firstNumber + " * " + secondNumber + " = " + sumProduct);
+        }
+        else if (letterOption.equals("D")) {
+            double sumQuotient = firstNumber / secondNumber;
+            System.out.println(firstNumber + " / " + secondNumber + " = " + sumQuotient);
+        }
+        /*
         if (Objects.equals(letterOption, "A")) {
             double sumAddition = firstNumber + secondNumber;
             System.out.println(firstNumber + " + " + secondNumber + " = " + sumAddition);
@@ -44,6 +60,6 @@ public class BasicCalculator {
             double sumDivide = firstNumber / secondNumber;
             System.out.println(firstNumber + " / " + secondNumber + " = " + sumDivide);
         }
-
+        */
     }
 }
