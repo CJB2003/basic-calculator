@@ -11,11 +11,11 @@ public class BasicCalculator {
 
         System.out.println("Enter the first number: ");
 
-        double firstNumber = myScanner.nextInt();
+        double firstNumber = myScanner.nextDouble();
 
         System.out.println("Enter the second number: ");
 
-        double secondNumber = myScanner.nextInt();
+        double secondNumber = myScanner.nextDouble();
 
         System.out.println("Possible calculations: ");
         System.out.println("    (A)Add");
