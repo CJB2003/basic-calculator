@@ -28,37 +28,37 @@ public class BasicCalculator {
         //Made functioning calculator with if statements with .equals
         String letterOption = myScanner.nextLine();
         if (letterOption.equals("A")) {
-            double sumAddition = firstNumber + secondNumber;
-            System.out.println(firstNumber + " + " + secondNumber + " = " + sumAddition);
+            double calcSum = firstNumber + secondNumber;
+            System.out.println(firstNumber + " + " + secondNumber + " = " + calcSum);
         }
         else if (letterOption.equals("S")) {
-            double sumDifference = firstNumber - secondNumber;
-            System.out.println(firstNumber + " - " + secondNumber + " = " + sumDifference);
+            double calcDifference = firstNumber - secondNumber;
+            System.out.println(firstNumber + " - " + secondNumber + " = " + calcDifference);
         }
         else if (letterOption.equals("M")) {
-            double sumProduct = firstNumber * secondNumber;
-            System.out.println(firstNumber + " * " + secondNumber + " = " + sumProduct);
+            double calcProduct = firstNumber * secondNumber;
+            System.out.println(firstNumber + " * " + secondNumber + " = " + calcProduct);
         }
         else if (letterOption.equals("D")) {
-            double sumQuotient = firstNumber / secondNumber;
-            System.out.println(firstNumber + " / " + secondNumber + " = " + sumQuotient);
+            double calcQuotient = firstNumber / secondNumber;
+            System.out.println(firstNumber + " / " + secondNumber + " = " + calcQuotient);
         }
         /*
         if (Objects.equals(letterOption, "A")) {
-            double sumAddition = firstNumber + secondNumber;
-            System.out.println(firstNumber + " + " + secondNumber + " = " + sumAddition);
+            double calcAddition = firstNumber + secondNumber;
+            System.out.println(firstNumber + " + " + secondNumber + " = " + calcAddition);
         }
         else if (Objects.equals(letterOption, "S")) {
-            double sumDifference = firstNumber - secondNumber;
-            System.out.println(firstNumber + " - " + secondNumber + " = " + sumDifference);
+            double calcDifference = firstNumber - secondNumber;
+            System.out.println(firstNumber + " - " + secondNumber + " = " + calcDifference);
         }
         else if (Objects.equals(letterOption, "M")) {
-            double sumMultiply = firstNumber * secondNumber;
-            System.out.println(firstNumber + " * " + secondNumber + " = " + sumMultiply);
+            double calcMultiply = firstNumber * secondNumber;
+            System.out.println(firstNumber + " * " + secondNumber + " = " + calcMultiply);
         }
         else if (Objects.equals(letterOption, "D")) {
-            double sumDivide = firstNumber / secondNumber;
-            System.out.println(firstNumber + " / " + secondNumber + " = " + sumDivide);
+            double calcDivide = firstNumber / secondNumber;
+            System.out.println(firstNumber + " / " + secondNumber + " = " + calcDivide);
         }
         */
     }
