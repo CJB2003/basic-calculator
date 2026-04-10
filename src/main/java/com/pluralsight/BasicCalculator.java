@@ -45,6 +45,8 @@ public class BasicCalculator {
             double calcQuotient = firstNumber / secondNumber;
             System.out.println(firstNumber + " / " + secondNumber + " = " + calcQuotient);
         }
+
+        //testing other ways to work about my calculator
         /*
         if (Objects.equals(letterOption, "A")) {
             double calcSum = firstNumber + secondNumber;
