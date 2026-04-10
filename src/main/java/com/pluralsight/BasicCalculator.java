@@ -25,6 +25,8 @@ public class BasicCalculator {
         System.out.println("Please select an option: ");
         myScanner.nextLine();
 
+        //Made functioning calculator with if statements and objects
+
         String letterOption = myScanner.nextLine();
         if (Objects.equals(letterOption, "A")) {
             double sumAddition = firstNumber + secondNumber;
