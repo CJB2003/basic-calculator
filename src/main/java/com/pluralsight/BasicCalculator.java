@@ -1,5 +1,7 @@
 package com.pluralsight;
+
 import java.util.Scanner;
+import java.util.Objects;
 
 public class BasicCalculator {
     public static void main(String[] args) {
@@ -9,11 +11,11 @@ public class BasicCalculator {
 
         System.out.println("Enter the first number: ");
 
-        int firstNumber = myScanner.nextInt();
+        double firstNumber = myScanner.nextInt();
 
         System.out.println("Enter the second number: ");
 
-        int secondNumber = myScanner.nextInt();
+        double secondNumber = myScanner.nextInt();
 
         System.out.println("Possible calculations: ");
         System.out.println("    (A)Add");
@@ -24,13 +26,22 @@ public class BasicCalculator {
         myScanner.nextLine();
 
         String letterOption = myScanner.nextLine();
-
-        System.out.println(firstNumber + " * " + secondNumber + " = " + firstNumber * secondNumber);
-
-
-
-
-
+        if (Objects.equals(letterOption, "A")) {
+            double sumAddition = firstNumber + secondNumber;
+            System.out.println(firstNumber + " + " + secondNumber + " = " + sumAddition);
+        }
+        else if (Objects.equals(letterOption, "S")) {
+            double sumSubtraction = firstNumber - secondNumber;
+            System.out.println(firstNumber + " - " + secondNumber + " = " + sumSubtraction);
+        }
+        else if (Objects.equals(letterOption, "M")) {
+            double sumMultiply = firstNumber * secondNumber;
+            System.out.println(firstNumber + " * " + secondNumber + " = " + sumMultiply);
+        }
+        else if (Objects.equals(letterOption, "D")) {
+            double sumDivide = firstNumber / secondNumber;
+            System.out.println(firstNumber + " / " + secondNumber + " = " + sumDivide);
+        }
 
     }
 }
