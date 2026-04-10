@@ -32,8 +32,8 @@ public class BasicCalculator {
             System.out.println(firstNumber + " + " + secondNumber + " = " + sumAddition);
         }
         else if (letterOption.equals("S")) {
-            double sumSubtraction = firstNumber - secondNumber;
-            System.out.println(firstNumber + " - " + secondNumber + " = " + sumSubtraction);
+            double sumDifference = firstNumber - secondNumber;
+            System.out.println(firstNumber + " - " + secondNumber + " = " + sumDifference);
         }
         else if (letterOption.equals("M")) {
             double sumProduct = firstNumber * secondNumber;
@@ -49,8 +49,8 @@ public class BasicCalculator {
             System.out.println(firstNumber + " + " + secondNumber + " = " + sumAddition);
         }
         else if (Objects.equals(letterOption, "S")) {
-            double sumSubtraction = firstNumber - secondNumber;
-            System.out.println(firstNumber + " - " + secondNumber + " = " + sumSubtraction);
+            double sumDifference = firstNumber - secondNumber;
+            System.out.println(firstNumber + " - " + secondNumber + " = " + sumDifference);
         }
         else if (Objects.equals(letterOption, "M")) {
             double sumMultiply = firstNumber * secondNumber;
